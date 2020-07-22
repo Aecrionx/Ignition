@@ -17,7 +17,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "alert(\"Working\");",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "author": "Me",
   "license": "ISC"
