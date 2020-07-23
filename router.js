@@ -32,4 +32,10 @@ router.get('/login',function(req,res){
     res.sendFile(path.join(__dirname+"/login.html"));
 })
 
+router.get('/business_dashboard',function(req,res){
+    //res.send("test");
+    res.sendFile(path.join(__dirname+"/business_side_dash"));
+})
+
+
 module.exports = router;
