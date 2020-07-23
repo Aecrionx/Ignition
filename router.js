@@ -34,7 +34,7 @@ router.get('/login',function(req,res){
 
 router.get('/business_dashboard',function(req,res){
     //res.send("test");
-    res.sendFile(path.join(__dirname+"/business_side_dash"));
+    res.sendFile(path.join(__dirname+"/business_side_dash.html"));
 })
 
 
