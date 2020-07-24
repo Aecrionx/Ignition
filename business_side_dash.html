@@ -3,7 +3,7 @@
 <head>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script>
-  function back_to_drivers(){
+  function go_back(){
     window.location.href='/driver';
   }
 </script>
@@ -14,6 +14,7 @@ table, th, td {
 </style>
 </head>
 <body style="background-color:lightgrey;">
+  <button style="float: right; padding:10px 10px" onclick="go_back()">Back</button>
   <iframe width="100%" height="100%" src="https://app.powerbi.com/view?r=eyJrIjoiYTIwMzRiNmUtZjdjNC00OWU5LThjYTEtZWZhNzNjNzkwNmY2IiwidCI6IjBkZmE1ZGMwLTAzNmYtNDYxNS05OWU0LTk0YWY4MjJmMmI4NCIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 </body>
 
