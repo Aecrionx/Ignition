@@ -18,7 +18,7 @@ router.post('/login', function(req,res){
 
 router.get('/',function(req,res){
     //res.send("test");
-    res.sendFile(path.join(__dirname+"/index.html"));
+    res.redirect("https://teamqq.wixsite.com/ignition");//res.sendFile(path.join(__dirname+"/index.html"));
 })
 
 router.get('/business',function(req,res){
