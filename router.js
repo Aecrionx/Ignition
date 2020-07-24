@@ -8,8 +8,12 @@ const router = new Router();
 router.post('/login', function(req,res){
 
     console.log(req.params);//var bool = reader.read()
-    res.status(404);//res.send("hello");
-
+    
+    res.status(404);//
+    res.send("hello");
+    
+    //res.sendFile(path.join(__dirname+"/index.html"));
+    
 })
 
 router.get('/',function(req,res){
@@ -37,5 +41,9 @@ router.get('/business_dashboard',function(req,res){
     res.sendFile(path.join(__dirname+"/business_side_dash.html"));
 })
 
+router.get('/driver_dashboard',function(req,res){
+    //res.send("test");
+    res.sendFile(path.join(__dirname+"/driver_side_dash.html"));
+})
 
 module.exports = router;
